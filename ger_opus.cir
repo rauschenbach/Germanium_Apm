@@ -1,7 +1,7 @@
 Germanium amplifier
-* SPICE2 - нет некоторых параметров для моделей
+* SPICE2 - РЅРµС‚ РЅРµРєРѕС‚РѕСЂС‹С… РїР°СЂР°РјРµС‚СЂРѕРІ РґР»СЏ РјРѕРґРµР»РµР№
 
-* компоненты
+* РєРѕРјРїРѕРЅРµРЅС‚С‹
 C1 2 IN 47u
 C2 0 2 240p
 C3 3 0 47u
@@ -33,14 +33,14 @@ R13 OUT 18 1
 R14 7 19 1
 R15 0 OUT 8
 
-* Источники
+* РСЃС‚РѕС‡РЅРёРєРё
 **V1 in 0 dc 0 ac 1 sin 0 0.5 5k
 V1 in 0 dc 0 ac SIN 0 0.5 1K 0 0 
 
 V2 7 0 dc 25 
 V3 4 0 dc -25 
 
-* модели
+* РјРѕРґРµР»Рё
 .MODEL MP41 PNP LEVEL=1 AF=1 BF=140 BR=4 CJC=90P CJE=30P CJS=0 EG=0.72 FC=500M
 + IKF=50M IKR=0 IRB=0.1M IS=3U ISC=0.6U ISE=.3U ITF=0 KF=0 MJC=0.5 MJE=0.5 MJS=0
 + NC=1.28 NE=1.28 NF=1 NR=1 PTF=0 RB=150 RBM=50 RC=0 RE=0 TF=0.1U TR=1.U VAF=15
